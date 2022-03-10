@@ -6,7 +6,7 @@ describe("FizzBuzz", () => {
   })
 
   it("returns ['Fizz', 52, 53, 'Fizz'] for (51, 54)", () => {
-    expect(fizzBuzz(51,54)).toEqual(['Fizz', 52, 53, 'Fizz'])
+    expect( fizzBuzz(51,54) ).toEqual(['Fizz', 52, 53, 'Fizz'])
   })
 
   it("returns [1, 2, 'Fizz'] for (1, 3)", () => {
